@@ -10,6 +10,7 @@
 4. 리스크 및 노후도 분석잠재적 위험 요소 포착통계적 이상치(Outlier) 탐색으로 가격 리스크 경고 및 건물 노후도에 따른 리스크 평가.
 
 ⚙️ 3. 실행 방법 (How to Run)이 대시보드를 로컬 환경에서 실행하려면 Python과 Streamlit 환경이 필요합니다.
+
 3-1. 환경 설정필요 라이브러리 설치:Bashpip install streamlit pandas plotly numpy
 데이터 파일 준비:분석에 사용할 seoul.csv 파일을 프로젝트의 루트 디렉토리에 위치시킵니다. (파일명 불일치 시 app.py의 FILE_PATH 변수를 수정해야 합니다.)
 파일 구조 확인:프로젝트 디렉토리는 최소한 다음과 같은 구조를 가져야 합니다.real_estate_dashboard/
