@@ -16,7 +16,7 @@
 파일 구조 확인:프로젝트 디렉토리는 최소한 다음과 같은 구조를 가져야 합니다.real_estate_dashboard/
 
  ├── app.py             # 홈 화면 및 데이터 로드 정의
- ├── seoul.csv          # 원본 데이터 파일
+ ├── seoul.csv          # 원본 데이터 파일 
  └── pages/
      ├── 1_Analysis_Dashboard.py
      ├── 2_Market_Trend_Analysis.py
