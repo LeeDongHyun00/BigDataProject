@@ -15,13 +15,13 @@
 데이터 파일 준비:분석에 사용할 seoul.csv 파일을 프로젝트의 루트 디렉토리에 위치시킵니다. (파일명 불일치 시 app.py의 FILE_PATH 변수를 수정해야 합니다.)
 파일 구조 확인:프로젝트 디렉토리는 최소한 다음과 같은 구조를 가져야 합니다.real_estate_dashboard/
 
-├── app.py             # 홈 화면 및 데이터 로드 정의
-├── seoul.csv          # 원본 데이터 파일
-└── pages/
-    ├── 1_Analysis_Dashboard.py
-    ├── 2_Market_Trend_Analysis.py
-    ├── 3_Comparative_Analysis.py
-    └── 4_Risk_and_Forecast.py
+ ├── app.py             # 홈 화면 및 데이터 로드 정의
+ ├── seoul.csv          # 원본 데이터 파일
+ └── pages/
+     ├── 1_Analysis_Dashboard.py
+     ├── 2_Market_Trend_Analysis.py
+     ├── 3_Comparative_Analysis.py
+     └── 4_Risk_and_Forecast.py
 
 3-2. 대시보드 실행터미널에서 프로젝트 루트 디렉토리로 이동한 후, 다음 명령어를 실행합니다.Bashstreamlit run app.py
 명령어 실행 후 웹 브라우저가 열리며 대시보드가 나타납니다.
